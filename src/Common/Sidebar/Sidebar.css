@@ -1,0 +1,10 @@
+.pro-sidebar > .pro-sidebar-inner {
+  background: #222d32 !important;
+  height: 800px !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .sidebar_in_mobile_view {
+    display: none !important;
+  }
+}
