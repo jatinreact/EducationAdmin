@@ -26,6 +26,23 @@ const Sidebar = (props) => {
             </MenuItem>
 
             <SubMenu
+              title="Add Category"
+              icon={<FontAwesomeIcon icon={faPeopleArrows} />}
+            >
+              <MenuItem onClick={() => navigate("/medium")}>
+                Add Medium
+              </MenuItem>
+              <MenuItem onClick={() => navigate("/board")}>Add Board</MenuItem>
+              <MenuItem onClick={() => navigate("/grade")}>Add Grade</MenuItem>
+              <MenuItem onClick={() => navigate("/topics")}>
+                Add Topics
+              </MenuItem>
+              <MenuItem onClick={() => navigate("/Course")}>
+                Add Course
+              </MenuItem>
+            </SubMenu>
+
+            <SubMenu
               title="Master"
               icon={<FontAwesomeIcon icon={faPeopleArrows} />}
             >

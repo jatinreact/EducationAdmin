@@ -12,6 +12,11 @@ import PaperList from "./Components/PaperList/PaperList";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
 import EmailVerify from "./Components/AdminLogin/EmailVerify";
 import Resetpassword from "./Components/AdminLogin/Resetpassword";
+import Medium from "./Components/Pages/Medium/Medium";
+import Board from "./Components/Pages/Board";
+import Grade from "./Components/Pages/Grade";
+import Topics from "./Components/Pages/Topics";
+import Course from "./Components/Pages/Course";
 
 function App() {
   return (
@@ -29,6 +34,11 @@ function App() {
         <Route path="/" element={<AdminLogin />} />
         <Route path="/emailVerify" element={<EmailVerify />} />
         <Route path="/resetpassword" element={<Resetpassword />} />
+        <Route path="/medium" element={<Medium />} />
+        <Route path="/board" element={<Board />} />
+        <Route path="/grade" element={<Grade />} />
+        <Route path="/topics" element={<Topics />} />
+        <Route path="/Course" element={<Course />} />
       </Routes>
     </>
   );
